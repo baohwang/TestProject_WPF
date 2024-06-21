@@ -23,7 +23,7 @@ namespace GUI
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            // dang nhap 
+            // dang nhap  
             DTO_NhanVien dtoNV = new DTO_NhanVien();
             dtoNV.Email = txtEmail.Text;
             dtoNV.MatKhau = busNV.encryption(txtPassword.Text);
